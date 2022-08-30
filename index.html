@@ -5,9 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rental Management application.</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="Assets" href="./Assets/"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
+    <h1 >Rental Management Application(Safe Abode).</h1>
+    <div class="house" id="my house">
+        <div class="icons">
+        <i class="material-icons" style="font-size:48px;color:blueviolet">house</i>
+        <i class="material-icons" style="font-size:48px;color:blueviolet">house</i>
+        <i class="material-icons" style="font-size:48px;color:blueviolet">house</i>
+        <i class="material-icons" style="font-size:48px;color:blueviolet">house</i>
+        </div>
+        <p>Apartments Management System</p>
+    </div>
+    
+    <div class="image">
+        <img src="Assets/pexels-pixabay-280221.jpg" alt="The image come here "height="500px" width="800px">
+    </div>
+
+    <div class="likes-section">
+        <span id="like-count" class="likes">0 likes</span>
+        <button id="like-button" class="like-button">♥</button>
+      </div>
+      <ul id="comments-list" class="comments">
+        <li>Well built and nice apartments</li>
+      </ul>
+      <form id="comment-form" class="comment-form">
+        <input
+          class="comment-input"
+          type="text"
+          name="comment"
+          id="comment"
+          placeholder="Add a comment..."
+        />
+        <button class="comment-button" type="submit">Post</button>
+      </form>
+    <div class="project">
+        <form action="/action_page.php" style="max-width:500px;margin:auto">
+            <h2>Mode of Payment</h2>
+            <div class="input-container">
+              <i class="fa fa-user icon"></i>
+              <input class="input-field" type="text" placeholder="Username" name="usrnm">
+            </div>
+          
+            <div class="input-container">
+              <i class="fa fa-envelope icon"></i>
+              <input class="input-field" type="text" placeholder="Email" name="email">
+            </div>
+            
+            <div class="input-container">
+              <i class="fa fa-key icon"></i>
+              <input class="input-field" type="password" placeholder="Password" name="psw">
+            </div>
+
+            <div class="input-container">
+                <input class="input-field" type="text" placeholder="Phone Number" name="text">
+            </div>
+
+            <div class="input-container">
+                <input class="input-field" type="amount" placeholder="Amount paid:" name="Amnt">
+              </div>
+          
+            <button type="submit" class="btn">Send</button>
+          </form>
+
+    </div>
+
     <script src="./main.js"></script>
 </body>
 </html>
