@@ -1,14 +1,14 @@
-#Portfolio
+#### Portfolio
 By Esther Ng'ang'a
 It is a description of my resume
-Description
+### Description
 This is a website that shows my portfolio/resume.It contains all my background information,some samples projects that i have worked on and the experience gained.
-Installation
-Requirements
+#### Installation
+### Requirements
 Either a computer,phone,tablet or an Ipad
 An access to the Internet
-Technology Used
-HTML - which was used to build the structure of the pages.
+##### Technology Used
+# HTML - which was used to build the structure of the pages.
 CSS - which was used to style the pages incuding the left aside nav bar.
 Reference
 css styling.
