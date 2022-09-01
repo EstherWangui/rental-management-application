@@ -1,21 +1,37 @@
 .input-container {
     display: -ms-flexbox; /* IE10 */
-    display: flex;
+    display: flex; 
     width: 100%;
     margin-bottom: 15px;
+    margin-left: 50px;
+    
+
   }
-  
+  #title{
+    font-style: oblique;
+    font-family: "Audiowide";
+    color: aqua;
+  }
+  .ip{
+    justify-content: space-between;  
+    display: flex; 
+    flex: none;
+    flex-direction: row; 
+  } 
+  #this{
+    width:600px;
+  }
   .icon {
     padding: 10px;
-    background: dodgerblue;
+    background: crimson;
     color: white;
-    min-width: 50px;
+    min-width: 70px;
     text-align: center;
   }
   
   .input-field {
-    width: 100%;
-    padding: 10px;
+    width:400px;
+    padding: 7px;
     outline: none;
   }
   
@@ -40,21 +56,22 @@ h1{
    margin-left: 200px;
 }
 .house p{
-    margin-left: 400px;
-    font-family: 'Courier New', Courier, monospace;
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 10px;
     font-size: 30px;
-    color: darkgreen;
+    color: rgb(127, 146, 250);
+    background-origin: padding-box;
 }
 .house:hover {
     font-size: 32px;
 }
 .icons {
-    margin-left: 500px;
+    margin-left: 300px;
     
 }
 .image {
-    margin-left: 300px;
+    margin-left: 50px;
 }
 .likes-section {
   display: flex;
@@ -65,16 +82,19 @@ h1{
   display: -ms-flexbox; /* IE10 */
   width: 100%;
   margin-bottom: 15px;
+  
 }
 
 .likes {
   font-size: 0.9rem;
   font-weight: 900;
 }
-
+.poject {
+  background-color: rgb(178, 180, 191);
+}
 .like-button {
   color: royalblue;
-  font-size: 46px;
+  font-size: 70px;
   border: none;
   background: none;
   transition: color 300ms;
@@ -101,15 +121,23 @@ h1{
   padding-left: 10px;
   font-size: 20px;
 }
-
+#see {
+  float: right;
+  background-color: chartreuse;
+  margin-right: 700px;
+  /* //padding-bottom: 500px; */
+}
 .comments li {
   margin: 2px 0;
-  margin-left: 30px;
-  letter-spacing: 0.2px;
-  color:indigo;
+  margin-right: 200px;
+  /* letter-spacing: 0.2px; */
+  color: rgb(0, 121, 130);
   
 }
-
+.section {
+  display: flex;
+  margin-right: 
+}
 .comment-form {
   width: 20%;
   border-top: 10px solid #00000020;
@@ -118,11 +146,16 @@ h1{
   
   margin-left: 30px;
 }
+#comment {
+  width: 300px;
+  background-color: rgba(115, 16, 115, 0.132);
+}
 
 .comment-input {
   width: 83%;
-  border-top-style: dotted;  font-size: 20px;
-  border-color: crimson;
+  border-style: groove ; 
+   font-size: 20px;
+  border-color: rgb(220, 197, 20);
 }
 
 .comment-input:focus {
@@ -133,6 +166,7 @@ h1{
   border: none;
   font-size: 0.8rem;
   font-weight: 600;
+  background-color: purple;
   color: rgb(92, 114, 238);
    cursor: pointer; 
   transition: color 300ms;
