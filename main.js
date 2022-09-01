@@ -1,4 +1,6 @@
 
+const random foods
+
 let flataTitle = document.getElementById("card-title");
 let flataImage = document.getElementById("card-image");
 let flataLikes = document.querySelector(".likes-section");

@@ -58,9 +58,13 @@ h1{
 }
 .likes-section {
   display: flex;
+  padding-bottom: 100px;
   margin-left: 50px;
   align-items: center;
   padding: 0 10px;
+  display: -ms-flexbox; /* IE10 */
+  width: 100%;
+  margin-bottom: 15px;
 }
 
 .likes {
@@ -75,6 +79,8 @@ h1{
   background: none;
   transition: color 300ms;
   cursor: pointer;
+  margin-left: 100px;
+  border: 10px;
 }
 
 .like-button:hover {
@@ -82,7 +88,7 @@ h1{
 }
 
 .like-button:active {
-  color: rgb(253, 159, 124);
+  color: rgb(169, 253, 124);
 }
 
 .like-button:focus {
@@ -93,13 +99,15 @@ h1{
   list-style-type: none;
   margin-left: 0;
   padding-left: 10px;
-  font-size: 0.85rem;
+  font-size: 20px;
 }
 
 .comments li {
   margin: 2px 0;
   margin-left: 30px;
   letter-spacing: 0.2px;
+  color:indigo;
+  
 }
 
 .comment-form {
@@ -107,13 +115,14 @@ h1{
   border-top: 10px solid #00000020;
   padding: 10px;
   margin-top: 10px;
+  
   margin-left: 30px;
 }
 
 .comment-input {
   width: 83%;
-  border: none;
-  font-size: 0.8rem;
+  border-top-style: dotted;  font-size: 20px;
+  border-color: crimson;
 }
 
 .comment-input:focus {
@@ -125,7 +134,7 @@ h1{
   font-size: 0.8rem;
   font-weight: 600;
   color: rgb(92, 114, 238);
-  cursor: pointer;
+   cursor: pointer; 
   transition: color 300ms;
 }
 
@@ -135,6 +144,7 @@ h1{
 
 .comment-button:active {
   color: rgb(127, 146, 250);
+  
 }
 
 .comment-button:focus {
