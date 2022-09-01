@@ -4,12 +4,14 @@ const display = document.getElementById("display")
 randomSee.addEventListener('click',randomPics);
 let random
 function randomPics(){
-  fetch('https://realtymole-rental-estimate-v1.p.rapidapi.com/rentalPrice?address=5500%20Grand%20Lake%20Drive%2C%20San%20Antonio%2C%20TX%2C%2078244&propertyType=Single%20Family&bedrooms=4&bathrooms=2&squareFootage=1600&compCount=5')
+
+  fetch('https://foodish-api.herokuapp.com/api/')
 	.then((response )=> response.json())
-	.then((data) =>) {
+	.then((data) => {
 	console.log(data.image)
-  display.innerHTML="<img src={data.image width=\"400px\" height=\"150px\">";
-}}
+  display.innerHTML="<img src="+data.image +" width='200px' height='200px'/>";
+});
+}
 let flataTitle = document.getElementById("card-title");
 let flataImage = document.getElementById("card-image");
 let flataLikes = document.querySelector(".likes-section");
