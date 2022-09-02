@@ -1,17 +1,20 @@
-
+  function myFunction() {
+    alert("Hello! Thankyou for your comments and likes");
+}
 const randomSee = document.getElementById("see");
 const display = document.getElementById("display")
 randomSee.addEventListener('click',randomPics);
 let random
 function randomPics(){
 
-  fetch('https://www.pexels.com/api')
+   fetch('https://foodish-api.herokuapp.com/api/')
 	.then((response )=> response.json())
 	.then((data) => {
 	console.log(data.image)
   display.innerHTML="<img src="+data.image +" width='200px' height='200px'/>";
 });
-}
+} 
+  
 let flataTitle = document.getElementById("card-title");
 let flataImage = document.getElementById("card-image");
 let flataLikes = document.querySelector(".likes-section");
@@ -46,3 +49,4 @@ send.addEventListener("submit",function (e) {
   let amount=document.getElementById("amount").value
    e.target.reset();
 })
+
