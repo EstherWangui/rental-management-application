@@ -60,6 +60,15 @@ margin-left: 5px;
   margin-left: 250px;
   font-size: 30px;
 }
+.payments {
+  float: right;
+  margin-bottom: 200px;
+}
+.payments h2{
+  margin-left: 200px;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 h1{
   
    font-size: 40px;
