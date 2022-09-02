@@ -8,7 +8,7 @@ let random
 
 function randomPics(){
 
-   fetch('https://foodish-api.herokuapp.com/api/')
+   fetch('https://whiskyhunter.net/api/?format=openapi')
 	.then((response )=> response.json())
 	.then((data) => {
 	console.log(data.image)
