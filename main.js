@@ -5,6 +5,7 @@ const randomSee = document.getElementById("see");
 const display = document.getElementById("display")
 randomSee.addEventListener('click',randomPics);
 let random
+
 function randomPics(){
 
    fetch('https://foodish-api.herokuapp.com/api/')
