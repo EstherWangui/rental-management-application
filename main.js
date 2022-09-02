@@ -8,11 +8,12 @@ let random
 
 function randomPics(){
 
-   fetch("http://localhost:3000/houses")
+   fetch('http://localhost:3000/houses')
 	.then((response )=> response.json())
 	.then((data) => {
-	console.log(data.image)
-  display.innerHTML="<img src="+data.image +" width='350px' height='270px'/>";
+	console.log(data)
+
+  display.innerHTML="<img src="+data[0].image+" width='350px' height='270px'/>";
 });
 } 
   
