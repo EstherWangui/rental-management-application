@@ -19,4 +19,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 ###### The above copyright notice and this permission notice shall be included in all copies
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, FITNESS FOR A PARTICULAR PURPOSE.IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #### Authors Info Slack Profile - Esther Nga'ng'a
-#### Linked - Esther Nga'ng'a-i=
+#### Linked - Esther Nga'ng'a
