@@ -8,7 +8,7 @@ let random
 
 function randomPics(){
 
-   fetch('https://whiskyhunter.net/api/?format=openapi')
+   fetch("http://localhost:3000/houses")
 	.then((response )=> response.json())
 	.then((data) => {
 	console.log(data.image)
