@@ -144,10 +144,10 @@ h1{
   float:left;
 
 }
-.comments {
-  list-style-type: none;
-  margin-left: 0;
-  padding-left: 10px;
+ .comments {
+  
+  margin-right: 15px;
+  padding-left: 10px; 
   font-size: 20px;
 }
  #see {

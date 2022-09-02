@@ -12,7 +12,7 @@ function randomPics(){
 	.then((response )=> response.json())
 	.then((data) => {
 	console.log(data.image)
-  display.innerHTML="<img src="+data.image +" width='200px' height='200px'/>";
+  display.innerHTML="<img src="+data.image +" width='350px' height='270px'/>";
 });
 } 
   
