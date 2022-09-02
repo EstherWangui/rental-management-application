@@ -8,8 +8,8 @@ This is a website that shows my portfolio/resume.It contains all my background i
 Either a computer,phone,tablet or an Ipad
 An access to the Internet
 ##### Technology Used
- ######### HTML - which was used to build the structure of the pages.
- ####### 3 CSS - which was used to style the pages incuding the left aside nav bar.
+HTML - which was used to build the structure of the pages.
+CSS - which was used to style the pages incuding the left aside nav bar.
 JavaScript - which was used in DOM manipulation.
 ## Reference
 css styling.
