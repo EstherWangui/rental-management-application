@@ -14,6 +14,9 @@ function randomPics(){
 	console.log(data)
 
   display.innerHTML="<img src="+data[0].image+" width='350px' height='270px'/>";
+  display.innerHTML="<img src="+data[1].image+" width='350px' height='270px'/>";
+  display.innerHTML="<img src="+data[2].image+" width='350px' height='270px'/>";
+
 });
 } 
   
