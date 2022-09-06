@@ -277,11 +277,11 @@ h1{
     display: flex;
     align-items: center;
 }
-.logo h2{
+/* .logo h2{
     font-size: 40px;
     font-family: "Oleo Script";
     font-weight: lighter;
-}
+} */
 .nav-links{
     display: flex;
     gap: 100px;
