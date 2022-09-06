@@ -6,7 +6,7 @@ const display = document.getElementById("display")
 randomSee.addEventListener('click',randomPics);
 let random
 
-function randomPics(){
+/* function randomPics(){
 
     fetch('http://localhost:3000/houses')
 	.then((response )=> response.json())
@@ -17,7 +17,7 @@ function randomPics(){
   
 
 });
-} 
+}  */
   
 let flataTitle = document.getElementById("card-title");
 let flataImage = document.getElementById("card-image");
