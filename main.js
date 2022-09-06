@@ -8,7 +8,7 @@ let random
 
 function randomPics(){
 
-   fetch('http://localhost:3000/houses')
+    fetch('http://localhost:3000/houses')
 	.then((response )=> response.json())
 	.then((data) => {
 	console.log(data)
