@@ -13,7 +13,7 @@ function randomPics(){
 	.then((data) => {
 	console.log(data)
 
-  display.innerHTML="<img src="+data[6].image+" width='350px' height='270px'/>";
+   display.innerHTML="<img src="+data[6].image+" width='350px' height='270px'/>"; 
   
   
 
